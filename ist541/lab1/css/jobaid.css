@@ -10,8 +10,6 @@ body {
 
 h1, h2 { 
 	text-align:center; /* centers h1 and h2 content */
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
-	text-shadow: #247F0E 1px 0 10px;
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -23,10 +21,9 @@ h1, h2 {
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
 	padding:4px;
-	text-align: left;
+	text-align: center;
 	font-size:14px;
 	font-weight: bold;
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
 	border-style: double;
 	background-color:#F4F1F1;
  	border-radius: 20px;
@@ -58,18 +55,3 @@ h1, h2 {
 	font-size:10px;
 	text-align: center;
 }
-
-.warning {
-	background-color: #FBB8C4;
-	padding:10px;
-	border-radius:20px;
-	border-style: solid;
-	border-width: thin;
-}
-
-.warningIcon {
-	font-size: 3em;
-	color:red;
-	
-}
-
