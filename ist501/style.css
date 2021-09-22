@@ -1,0 +1,28 @@
+body {
+     font-family: arial, helvetica, sans-serif;
+     font-size: 14px;
+     color: black;
+     background-color: lightgrey;
+}
+
+h1 { 
+     color: #ff5733;
+     background-color: black;
+     text-align: center;
+}
+
+a {
+     color: #ff5733;
+}
+
+h4 {
+     text-transform: capitalize;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
+    border-color: black:
+}
