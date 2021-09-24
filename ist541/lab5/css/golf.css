@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background: linear-gradient(110deg, #FFFFFF 60%, #AFF1A6 60%);  
+}
+
+h1 {
+	text-align:center; /* centers h1 content */
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
+	text-shadow: #247F0E 1px 0 10px;
+}
+
+h2 {
+	text-align:center; /* centers h2 content */
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
+	text-shadow: #247F0E 1px 0 10px;
+}
+
+h3 {
+	text-align:center; /* centers h2 content */
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
+	text-shadow: #247F0E 1px 0 10px;
+}
+
+a {
+	text-align:center;
+	padding: 9px;
+	margin: 10px;
+	font-size: 125%;
+	background-color: #DDDDDD; 
+	color: #010101;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white
+}
+
+a:hover {
+	font-size:175%;
+	background-color: #888A87; 
+	color: #FFFFFF; 
+}
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+#golf_image {
+border: black 5px solid;
+}
+ 
+#golf_image2 {
+display: none;
+border: black 5px solid;
+}
+
+#golf_image3 {
+border: black 5px solid;
+}
+
+#golf_image4 {
+border: black 5px solid;
+}
+
+#golf_image5 {
+border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}

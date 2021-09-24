@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Understanding the Golf Course</title>
+<link href="css/golf.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+$( function(){
+$("#golf_image").mouseenter( function(){
+$("#golf_image2").css("display","inline");
+$("#golf_image ").css("display","none");
+$("#answer").html("<h2> The fairway is where you want to be! </h2>");
+$("#hint").html("<br>");
+});
+	
+$("#golf_image2").mouseleave( function(){
+$("#golf_image").css("display","inline");
+$("#golf_image2").css("display","none");
+$("#answer").html("");
+$("#hint").html("Hint: Hover over the image below to find out!");
+
+});
+});
+</script>
+
+</head>
+
+<body>
+	<h1> Understanding the Golf Course </h1>
+	
+	<br/>
+	
+	<a href="file:///C|/Users/cook3842/Desktop/MIST/ist541/james-cook-site.github.io/ist541/lab5/index.html"> Question 1 </a>
+	<a href="file:///C|/Users/cook3842/Desktop/MIST/ist541/james-cook-site.github.io/ist541/lab5/page2.html"> Question 2 </a>
+	<a href="file:///C|/Users/cook3842/Desktop/MIST/ist541/james-cook-site.github.io/ist541/lab5/page3.html"> Question 3 </a>
+	<a href="file:///C|/Users/cook3842/Desktop/MIST/ist541/james-cook-site.github.io/ist541/lab5/quiz.html"> Quiz </a>
+	
+	<br/>
+	
+	<br><hr><br>
+	
+	<div id="wrapper">
+ 
+<h1>Where Does an Ideal Tee Shot End Up?</h1>
+ 
+<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+ 
+<img id="golf_image" src="img/Fairway1.png" alt="fairway" width="389" height="206"/>
+<img id="golf_image2" src="img/Fairway2.png" alt="fairway" width="389" height="206"/>
+<p>From<i> Fairway </i>[Image], 2021, iStockphoto
+</p>
+<div id="answer"></div>  
+           <!-- This is a placeholder to display here the answer-->
+ 
+	</div> <!-- closing  “wrapper” -->
+
+</body>
+</html>
