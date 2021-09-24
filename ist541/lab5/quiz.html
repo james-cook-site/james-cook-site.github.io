@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Understanding the Golf Course</title>
+<link href="css/golf.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+ 
+$(function(){
+	$("#option1").click( function(){
+         $("#feedback").html("<h2 style='color:green'> Correct! Hit that fairway!</h2>");
+                 $("#golf_image3").css("display","inline");
+});
+	$("#option2").click( function(){
+         $("#feedback").html("<h2 style='color:red'> The bunker is not the place to be. </h2>");
+                  $("#golf_image3").css("display","none");
+});
+	$("#option3").click( function(){
+         $("#feedback").html("<h2 style='color:red'> The green is a tad too far away. </h2>");
+                  $("#golf_image3").css("display","none");
+});
+	$("#option4").click( function(){
+         $("#feedback2").html("<h2 style='color:red'> The green is not a sandy area. </h2>");
+                  $("#golf_image4").css("display","none");
+});
+	$("#option5").click( function(){
+         $("#feedback2").html("<h2 style='color:red'> The fairway is a grassy area. </h2>");
+                  $("#golf_image4").css("display","none");
+});
+	$("#option6").click( function(){
+         $("#feedback2").html("<h2 style='color:green'> Correct! Try to avoid the bunker at all costs! </h2>");
+                 $("#golf_image4").css("display","inline");
+});
+ 	$("#option7").click( function(){
+         $("#feedback3").html("<h2 style='color:red'> Try to avoid the bunker at all costs! </h2>");
+                  $("#golf_image5").css("display","none");
+});
+	$("#option8").click( function(){
+         $("#feedback3").html("<h2 style='color:green'> Correct! The green is the place to be! </h2>");$("#golf_image5").css("display","inline");
+});
+	$("#option9").click( function(){
+         $("#feedback3").html("<h2 style='color:red'> The fairway is where you will hit your approach shot from. </h2>");
+                  $("#golf_image5").css("display","none");
+});
+	
+});
+
+</script>
+
+</head>
+
+<body>
+	<h1> Understanding the Golf Course </h1>
+	
+	<h2> Please Answer All Three Questions </h2>
+	
+	<br/>
+	
+	<a href="index.html"> Return to the Homepage </a>
+	
+	<br/>
+	
+	<br><hr><br>
+	
+
+	
+<div id="wrapper">
+<h1>Where do you want your tee shot to end up?</h1>
+<h3>Click on one of the following choices</h3>
+ 
+<h2 id="option1" class="choices"> Fairway </h2>
+<h2 id="option2" class="choices"> Bunker </h2>
+<h2 id="option3" class="choices"> Green </h2>
+ 
+<div id="feedback"></div>
+<img id="golf_image3" src="img/fairway1.png" alt="fairway" width="389" height="206" />
+	
+<h1>What are the sandy areas on the golf course called?</h1>
+<h3>Click on one of the following choices</h3>
+ 
+<h2 id="option4" class="choices"> Green </h2>
+<h2 id="option5" class="choices"> Fairway </h2>
+<h2 id="option6" class="choices"> Bunker </h2>
+ 
+<div id="feedback2"></div>
+<img id="golf_image4" src="img/bunker1.png" alt="bunker" width="389" height="206" />
+	
+<h1>Where do you want your approach shot to land?</h1>
+<h3>Click on one of the following choices</h3>
+ 
+<h2 id="option7" class="choices"> Bunker </h2>
+<h2 id="option8" class="choices"> Green </h2>
+<h2 id="option9" class="choices"> Fairway </h2>
+ 
+<div id="feedback3"></div>
+<img id="golf_image5" src="img/green1.png" alt="green" width="389" height="206" />
+	
+</div><!-- closing  “wrapper” -->
+	
+</body>
+</html>
