@@ -3,7 +3,7 @@
 
 body {
 	text-align: center;
-	ont-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;	  
+	ont-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;  
 }
 
 h1 {
@@ -38,60 +38,61 @@ h3 {
 #top a:hover {
 	font-size:135%;
 	background-color: #888A87; 
-	color: #FFFFFF; 
+	color: #FFFFFF;
 }
 
-#bot a {
+#top2 a {
 	text-align:center;
-	color: black;
+	padding: 9px;
+	margin: 10px;
+	font-size: 125%;
+	background-color: #FFFFFF;
+	color: #010101;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white
 }
 
-#bot2 a {
-	text-align:center;
-	color: black;
+#top2 a:hover {
+	font-size:135%;
+	background-color: #888A87; 
+	color: #FFFFFF;
 }
 
 #wrapper {
-	width: 900px;
-	margin: 0 auto;
-	text-align: center;
+width: 900px;
+margin: 0 auto;
+text-align: center;
 }
 
 #golf_image {
-	border: black 5px solid;
+border: black 5px solid;
 }
  
 #golf_image2 {
-	display: none;
-	border: black 5px solid;
+display: none;
+border: black 5px solid;
 }
 
 #golf_image3 {
-	display: none;
-	border: black 5px solid;
+display: none;
+border: black 5px solid;
 }
 
 #golf_image4 {
-	display: none;
-	border: black 5px solid;
+display: none;
+border: black 5px solid;
 }
 
 #golf_image5 {
-	display: none;
-	border: black 5px solid;
+display: none;
+border: black 5px solid;
 }
 
-#footer {
-    position: fixed;
-	font-size: 15px;
-    bottom: 0;
-    width: 900px;  
-    height: 40px; /* Height of the footer*/
-    background: none;
+.choices {
+cursor: pointer;
 }
 
 #indexparagraph {
-  font-size: 25px;
   background-color: rgba(62, 224, 71, 0.7);
   border-radius: 15px;
   border: black 5px solid;
@@ -99,8 +100,4 @@ h3 {
   margin: 5px;
   text-allign: justify;
   justify-content: center;
-}
-
-.choices {
-	cursor: pointer;
 }
