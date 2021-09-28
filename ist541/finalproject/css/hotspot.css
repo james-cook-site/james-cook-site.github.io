@@ -5,19 +5,19 @@ body {
 	text-align: center; 
 }
 
-#bootstrap-overrides h1 {
+h1 {
 	text-align:center; /* centers h1 content */
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
 	text-shadow: #247F0E 1px 0 10px;
 }
 
-#bootstrap-overrides h2 {
+h2 {
 	text-align:center; /* centers h2 content */
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
 	text-shadow: #247F0E 1px 0 10px;
 }
 
-#bootstrap-overrides h3 {
+h3 {
 	text-align:center; /* centers h3 content */
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
 	text-shadow: #247F0E 1px 0 10px;
