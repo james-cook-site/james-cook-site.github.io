@@ -17,6 +17,12 @@ h2 {
 	text-shadow: #247F0E 1px 0 10px;
 }
 
+h3 {
+	text-align:center; /* centers h3 content */
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
+	text-shadow: #247F0E 1px 0 10px;
+}
+
 #top a {
 	text-align:center;
 	padding: 9px;
