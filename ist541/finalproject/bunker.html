@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bunker Maintenance</title>
+	
+	<style>
+		body {background-image: url("img/background.jpg")}
+	</style>
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="css/hotspot.css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+<script src="js/hotspot.js"></script>
+
+</head>
+
+<body id="bootstrap-overrides">
+	
+	<div id="header">
+		<div style="color:black">
+		<h1><strong>Bunker Maintenance</strong></h1>
+		</div>
+	</div>
+	
+	<br/>
+	
+	<div id="top">
+	<a href="index.html"><u>Homepage</u></a>
+	<a href="golf.html"><u>Understanding the Golf Course</u></a>
+	<a href="fairway.html"><u>Fairway Divot Repair 101</u></a>
+	<a href="bunker.html"><u>Bunker Maintenance</u></a>
+	<a href="divot.html"><u>Golf Ball Divot Repair</u></a>
+	<a href="resources.html"><u>Additional Resources</u></a>
+	</div>
+	
+	<hr>
+
+	<div style="color:black">
+	  <h2><strong>Click on the Bunker Sand, the Bunker Rake, and the Golf Ball to Find Out More About Each!</strong></h2>
+	</div>
+	
+<br>
+	
+<div id="wrapper">
+ <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel"> 
+           More Info
+        </h4>
+      </div>
+      <div class="modal-body">
+ 		<div id="feedback"></div>
+		  </div><!-- /.modal-body -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+ <img id="golf_bunker" src="img/bunkerhotspot.PNG" alt="Bunker" width="650" height="420" usemap="#Map"/>
+ <map name="Map">
+   <area id="Golf Ball" shape="poly" coords="480,282,477,293,467,287,470,280" href="#" alt="Golf Ball" title="Golf Ball">
+   <area id ="Bunker Sand" shape="poly" coords="417,259,188,208,212,118,311,60,424,19,458,5,638,7,637,211" href="#" alt="Bunker Sand" title="Bunker Sand">
+   <area id="Bunker Rake" shape="poly" coords="70,305,113,251,576,286,576,278,121,243,147,192,127,180,56,285" href="#" alt="Bunker Rake" title="Bunker Rake">
+ </map>
+	
+<br/><br />
+	
+	<div style="font-size:15px"><strong>Image Courtesy of Pikist.com</strong>
+	</div>
+	
+ </div><!--closing wrapper-->
+
+</body>
+</html>

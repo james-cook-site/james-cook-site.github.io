@@ -17,12 +17,6 @@ h2 {
 	text-shadow: #247F0E 1px 0 10px;
 }
 
-h3 {
-	text-align:center; /* centers h3 content */
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
-	text-shadow: #247F0E 1px 0 10px;
-}
-
 #top a {
 	text-align:center;
 	padding: 9px;
@@ -55,48 +49,4 @@ h3 {
 	font-size:135%;
 	background-color: #888A87; 
 	color: #FFFFFF;
-}
-
-#wrapper {
-width: 900px;
-margin: 0 auto;
-text-align: center;
-}
-
-#golf_image {
-border: black 5px solid;
-}
- 
-#golf_image2 {
-display: none;
-border: black 5px solid;
-}
-
-#golf_image3 {
-display: none;
-border: black 5px solid;
-}
-
-#golf_image4 {
-display: none;
-border: black 5px solid;
-}
-
-#golf_image5 {
-display: none;
-border: black 5px solid;
-}
-
-.choices {
-cursor: pointer;
-}
-
-#indexparagraph {
-  background-color: rgba(62, 224, 71, 0.7);
-  border-radius: 15px;
-  border: black 5px solid;
-  padding: 2px;
-  margin: 5px;
-  text-allign: justify;
-  justify-content: center;
 }

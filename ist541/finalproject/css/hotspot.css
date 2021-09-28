@@ -2,22 +2,22 @@
 /* CSS Document */
 
 body {
-	text-align: center;
+	text-align: center; 
 }
 
-h1 {
+#bootstrap-overrides h1 {
 	text-align:center; /* centers h1 content */
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
 	text-shadow: #247F0E 1px 0 10px;
 }
 
-h2 {
+#bootstrap-overrides h2 {
 	text-align:center; /* centers h2 content */
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
 	text-shadow: #247F0E 1px 0 10px;
 }
 
-h3 {
+#bootstrap-overrides h3 {
 	text-align:center; /* centers h3 content */
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic, sans-serif;
 	text-shadow: #247F0E 1px 0 10px;
@@ -57,46 +57,12 @@ h3 {
 	color: #FFFFFF;
 }
 
+#golf_bunker {
+border: black 5px solid;
+}
+
 #wrapper {
 width: 900px;
 margin: 0 auto;
 text-align: center;
-}
-
-#golf_image {
-border: black 5px solid;
-}
- 
-#golf_image2 {
-display: none;
-border: black 5px solid;
-}
-
-#golf_image3 {
-display: none;
-border: black 5px solid;
-}
-
-#golf_image4 {
-display: none;
-border: black 5px solid;
-}
-
-#golf_image5 {
-display: none;
-border: black 5px solid;
-}
-
-.choices {
-cursor: pointer;
-}
-
-#indexparagraph {
-  background-color: rgba(62, 224, 71, 0.7);
-  border-radius: 15px;
-  border: black 5px solid;
-  padding: 2px;
-  margin: 5px;
-  text-allign: justify;
-  justify-content: center;
 }
