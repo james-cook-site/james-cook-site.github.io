@@ -2,6 +2,11 @@
 $( function() {
    $("map area").click( function(){
 
+      if ($(this).attr("id") == "Grassy Area") {
+         $("#feedback").css("color","black");
+         $("#feedback").html("The grassy area is an ideal spot for your golf ball to land. Unfortunately, that is not always the case. If you land in the bunker, you have to play your ball from there.");
+      }
+
       if ($(this).attr("id") == "Golf Ball") {
          $("#feedback").css("color","black");
          $("#feedback").html("If your golf ball lands in the bunker, you have to play it from there. Also, you can not rest your club in the sand before striking the ball.");
